@@ -1,0 +1,18 @@
+{
+  "signal": [
+    {"name": "PCLK", "wave": "P....", "period": 2},
+    {"name": "State", "wave": "2.3.4.2...", "data": ["IDLE", "SETUP", "ACCESS", "IDLE"]},
+    {"name": "PSEL", "wave": "01....0..."},
+    {"name": "PENABLE", "wave": "0...1.0..."},
+    {"name": "PWRITE", "wave": "0.1...0..."},
+    {"name": "PADDR", "wave": "x.2...x...", "data": ["0x00"]},
+    {"name": "PWDATA", "wave": "x.2...x...", "data": ["CTRL_VAL"]},
+    {"name": "PREADY", "wave": "0...1.0..."},
+    {"name": "reg_wr_en", "wave": "0...1.0..."}
+  ],
+  "config": {"hscale": 2},
+  "head": {
+    "text": "Waveform APB_fsm Write Register (PADDR = 0x00) ",
+    "tick": 0
+  }
+}

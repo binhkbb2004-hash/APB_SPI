@@ -1,0 +1,17 @@
+{
+  "signal": [
+    {"name": "PCLK",       "wave": "P........", "period": 2},
+    {"name": "PRESETn",    "wave": "1..0.........1.....", "node": ".............a....."},
+    {"name": "Meta_DFF_Q", "wave": "1..0..........1...", "node": "..............b..."},
+    {"name": "Sync_DFF_Q (rstn_sync)",  "wave": "1..0............1.", "node": "................c."}
+  ],
+  "edge": [
+    "a~>b",
+    "b~>c"
+  ],
+  "config": {"hscale": 0.75},
+  "head": {
+    "text": "Waveform module reset_sync ",
+    "tick": 0
+  }
+}

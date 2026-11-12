@@ -1,0 +1,13 @@
+{
+  "signal": [
+    {"name": "PCLK",       "wave": "P.......", "period": 2},
+    {"name": "CLK_GATE_EN",         "wave": "0..1......0....."},
+    {"name": "en_latched", "wave": "0...1.......0....", "phase": 1},
+    {"name": "gated_clk",  "wave": "0...10101010...."}
+  ],
+  "config": {"hscale": 0.75},
+  "head": {
+    "text": "Waveform module clk_gating",
+    "tick": 0
+  }
+}
